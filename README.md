@@ -1,26 +1,27 @@
-# CakePHP Application Skeleton
+# Do They Like Me
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
-
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x.
-
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+Sentiment Analysis library [PHPInsight](https://github.com/JWHennessey/phpInsight)
 
 ## Installation
 
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+Setup should not require a database but if Cake complains setup a default one called: dotheylikeme
 
-If Composer is installed globally, run
-```bash
-composer create-project --prefer-dist cakephp/app [app_name]
-```
+My home setup is using PHP 7.0.0 but it should work fine on earlier versions.
 
-You should now be able to visit the path to where you installed the app and see
-the setup traffic lights.
+## Disclaimer
 
-## Configuration
+The Reddit API calls that run to get the comments for the threads it finds can take a while so be patient. I have yet to find a way to
+optimize it.
 
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
+## Key Files
+
+/src/Controller/AnalysisController.php (Main logic)
+/src/Template/Layout/default.ctp (default wrapper)
+/src/Template/Analysis/index.ctp (index view)
+/src/Template/Analysis/search.ctp (ajax view)
+
+/webroot/js/app.js (custom js)
+/webroot/css/app.css (custom styling)
+
+
+
