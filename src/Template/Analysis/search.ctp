@@ -38,14 +38,14 @@
 	<!-- Comment Control -->
 	<div class="row">
 		<div class="small-12 medium-6 columns comment-controls jsCommentControls">	
-			<input type="checkbox" class="jsHideComment" data-rating="pos">
-			<label>Hide positive</label>
+			<input type="checkbox" id="pos" name="pos" class="jsHideComment" data-rating="pos">
+			<label for="pos">Hide positive</label>
 			
-			<input type="checkbox" class="jsHideComment" data-rating="neg">
-			<label>Hide negative</label>
+			<input type="checkbox" id="neg" name="neg" class="jsHideComment" data-rating="neg">
+			<label for="neg">Hide negative</label>
 			
-			<input type="checkbox" class="jsHideComment" data-rating="neu">
-			<label>Hide neutral</label>
+			<input type="checkbox" id="neu" name="neu" class="jsHideComment" data-rating="neu">
+			<label for="neu">Hide neutral</label>
 		</div>
 	</div>
 

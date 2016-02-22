@@ -7753,3 +7753,16 @@ Stack Trace:
 #1 {main}
 
 
+2016-02-22 20:49:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/vendor/jquery.min.map
+Stack Trace:
+#0 C:\wamp64\www\dotheylikeme-cake\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
