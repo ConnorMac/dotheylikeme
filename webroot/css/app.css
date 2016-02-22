@@ -1,0 +1,135 @@
+/* General Styling */
+
+/* Globals and utility */
+.blue {
+	color: #99bbff;
+}
+.red {
+	color: #ff6666;
+}
+.bolld {
+	font-weight: bold;
+}
+.hidden {
+	display: none;
+}
+.clear {
+	clear: both;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+/* Header */
+.top-bar {
+	margin-bottom: 150px;
+	background-color: #ff6666;
+	color: #ffffff;
+}
+
+.top-bar i {
+	font-size: 1.5rem;
+	line-height: 1;
+	margin-right: 7px;
+}
+.top-bar span {
+	font-size: 1.3rem;
+	line-height: 1;
+}
+.top-bar a {
+	color: #ffffff;
+}
+.heading-text {
+	margin-bottom: 20px;
+}
+h2 {
+	font-size: 1.5rem;
+	color: #595959;
+}
+/* Header End */
+
+/* Input elements */
+input[type='text'] {
+	width: 100%;
+	border-radius: 3px;
+	border: 1px solid #d9d9d9;
+	color: #404040;
+}
+
+.button {
+	background-color: #ff6666;
+	width: 100%;
+	font-size: 1.2rem;
+}
+.button i {
+	margin-right: 5px;
+}
+.button:hover {
+	background-color: #99bbff;
+}
+/* Input elements end */
+
+/* Ajax spinner */
+.loader {
+	font-size: 7rem;
+	color: #ff6666;
+}
+.loading-text {
+	letter-spacing: 2px;
+	color: #595959;
+	font-size: 1.2rem;
+}
+.jsAjaxLoader {
+	display: none;
+}
+/* Ajax spinner end */
+
+/* General */
+.search-form {
+	margin-bottom: 30px;
+}
+.fa-smile-o {
+	font-size: 9rem;
+	color: #99bbff;
+}
+.fa-frown-o {
+	font-size: 9rem;
+	color: #ff6666;
+}
+.fa-neuter {
+	font-size: 9rem;
+}
+
+/* Results page */
+.result-details {
+	padding-top: 12px;
+	float: left !important;
+	margin-bottom: 30px;
+}
+
+.comment {
+	width: 100%;
+	padding-left: 10px;
+	-webkit-transition: all;
+	transition: all;
+}
+.comment.pos {
+	border-left: 2px solid #99bbff;
+}
+.comment.neg {
+	border-left: 2px solid #ff6666;
+}
+.comment.neu {
+	border-left: 2px solid #595959;
+}
+.comment-controls {
+	margin-bottom: 10px;
+	float: right;
+}
+.comment-wrapper {
+	-webkit-transition: all;
+	transition: all;
+}
