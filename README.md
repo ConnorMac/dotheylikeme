@@ -15,13 +15,13 @@ optimize it.
 
 ## Key Files
 
-/src/Controller/AnalysisController.php (Main logic)
-/src/Template/Layout/default.ctp (default wrapper)
-/src/Template/Analysis/index.ctp (index view)
-/src/Template/Analysis/search.ctp (ajax view)
+/src/Controller/AnalysisController.php (Main logic)  
+/src/Template/Layout/default.ctp (default wrapper)  
+/src/Template/Analysis/index.ctp (index view)  
+/src/Template/Analysis/search.ctp (ajax view)  
 
-/webroot/js/app.js (custom js)
-/webroot/css/app.css (custom styling)
+/webroot/js/app.js (custom js)  
+/webroot/css/app.css (custom styling)  
 
 
 
